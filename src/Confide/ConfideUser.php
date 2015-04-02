@@ -75,14 +75,14 @@ trait ConfideUser
      *
      * @return bool
      */
-    public function save(array $options = array())
-    {
-        if ($this->isValid()) {
-            return parent::save($options);
-        }
+    // public function save(array $options = array())
+    // {
+    //     if ($this->isValid()) {
+    //         return parent::save($options);
+    //     }
 
-        return false;
-    }
+    //     return false;
+    // }
 
     /**
      * Returns a MessageBag object that store any error
